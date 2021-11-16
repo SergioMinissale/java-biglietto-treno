@@ -17,7 +17,7 @@ public class CalcolaBiglietto {
 		eta = scanner.nextInt();
 		
 		System.out.println("I km che vuoi percorrere: " + kmDaPercorrere);
-		System.out.println("La tua eta: " + eta);
+		System.out.println("La tua eta: " + eta + " anni");
 		
 		//variabile costo a km
 		double costoAKm = 0.21;
@@ -25,7 +25,7 @@ public class CalcolaBiglietto {
 		//variabile prezzo del biglietto con calcolo
 		double prezzoBiglietto;
 		prezzoBiglietto = costoAKm * kmDaPercorrere;
-		System.out.println("Il prezzo del biglietto: " + prezzoBiglietto + " €");
+		System.out.println("Il prezzo del biglietto intero: " + prezzoBiglietto + " €");
 		
 		//variabili sconto
 		double scontoMinorenni = 0.2;
